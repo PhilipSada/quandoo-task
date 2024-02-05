@@ -52,8 +52,8 @@ Pandasql package was used in Jupyter Notebook to write the SQL queries. Below ar
 
 
 ## Question 2:
-#### Please summarize the most important observations based on the csv files.
-#### What in your opinion are important metrics for our business?
+- Please summarize the most important observations based on the csv files.
+- What in your opinion are important metrics for our business?
 We use Tableau for reporting and visualizations, but you are free to use a different tool that you
 are more comfortable with. In case you do use a different tool, please point us to the URL to
 download a trial version.
