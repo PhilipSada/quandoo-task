@@ -5,9 +5,8 @@ You may use any tool you like for consolidating the data sets, like Jupyter Note
 package, but please share the SQL with us.
 ## Solution
 Pandasql package was used in Jupyter Notebook to write the SQL queries. Below are the SQL queries to identify the most important cities for the company.
-### Total Revenue in each city
+#### Total Revenue in each city
 ```sql
-  
     SELECT m.city,
            r.country,
            ROUND(SUM(r.revenue),2) as total_revenue
@@ -17,7 +16,7 @@ Pandasql package was used in Jupyter Notebook to write the SQL queries. Below ar
     ORDER BY total_revenue DESC
     LIMIT 5; 
 ```
-### Total number of reservations in each city
+#### Total number of reservations in each city
 ```sql
     SELECT m.city,
            r.country,
@@ -28,7 +27,7 @@ Pandasql package was used in Jupyter Notebook to write the SQL queries. Below ar
     ORDER BY total_reservations DESC
     LIMIT 5; 
 ```
-### Total number of merchants in each city
+#### Total number of merchants in each city
 ```sql
     SELECT m.city,
            r.country,
@@ -39,7 +38,7 @@ Pandasql package was used in Jupyter Notebook to write the SQL queries. Below ar
     ORDER BY total_merchants DESC
     LIMIT 5; 
 ```
-### Total number of customers in each city
+#### Total number of customers in each city
 ```sql
     SELECT m.city, 
            r.country,
@@ -53,8 +52,8 @@ Pandasql package was used in Jupyter Notebook to write the SQL queries. Below ar
 
 
 ## Question 2:
-● Please summarize the most important observations based on the csv files.
-● What in your opinion are important metrics for our business?
+#### Please summarize the most important observations based on the csv files.
+#### What in your opinion are important metrics for our business?
 We use Tableau for reporting and visualizations, but you are free to use a different tool that you
 are more comfortable with. In case you do use a different tool, please point us to the URL to
 download a trial version.
