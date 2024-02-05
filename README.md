@@ -64,4 +64,6 @@ Tableau was used to summarize the most important observations based on the csv f
 You can interact with the dashboard in tableau public [here](https://public.tableau.com/app/profile/philip.sada/viz/QuandooTask/KeyMetricsforthebusiness)
 
 ![key metrics](https://github.com/PhilipSada/quandoo-task/assets/55988995/8342c2d8-f11a-4d0f-801e-289557437de5)
+![data-overview](https://github.com/PhilipSada/quandoo-task/assets/55988995/f36bac1c-85f5-4fb5-b34b-c63fa2a3965f)
+
 
