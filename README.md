@@ -6,6 +6,18 @@ package, but please share the SQL with us.
 ## Solution
 Pandasql package was used in Jupyter Notebook to write the SQL queries. Below are the SQL queries to identify the most important cities for the company.
 
+```sql
+   # Total Revenue in each city
+    SELECT m.city,
+           r.country,
+           ROUND(SUM(r.revenue),2) as total_revenue
+    FROM reservations r
+    JOIN merchants m ON r.merchant_id = m.merchant_id
+    GROUP BY m.city, r.country
+    ORDER BY total_revenue DESC
+    LIMIT 5; 
+```
+
 ## Question 2:
 ● Please summarize the most important observations based on the csv files.
 ● What in your opinion are important metrics for our business?
