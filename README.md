@@ -1,1 +1,1 @@
-# quandoo-task
+# Quandoo Junior Analyst Task
