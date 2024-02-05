@@ -60,4 +60,8 @@ download a trial version.
 
 ## Solution
 Tableau was used to summarize the most important observations based on the csv files and show important metrics for the business. 
-Here is the link to the tableau dashboard
+
+You can interact with the dashboard in tableau public [here](https://public.tableau.com/app/profile/philip.sada/viz/QuandooTask/KeyMetricsforthebusiness)
+
+![key metrics](https://github.com/PhilipSada/quandoo-task/assets/55988995/8342c2d8-f11a-4d0f-801e-289557437de5)
+
